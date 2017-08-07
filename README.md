@@ -1,2 +1,2 @@
 # Movie-Trailer-Website
-Python code that creates movie trailer website (HTML)
+Run entertainment_center.py to launch a website containing the trailers of my favorite movies!
