@@ -6,7 +6,7 @@ You can simply view the website by downloading **fresh_tomatoes.html** and openi
 Alternatively, here are the steps to follow to use Python to launch the website:
 1. Download the files in this repo
 2. In your terminal, go to the directory that you downloaded this repo into and type
-`python entertainment_center.py`
+    `python entertainment_center.py`
 3. The command above will launch your default browser and display the contents of the newly created **fresh_tomatoes.html**
 
 # Resource
