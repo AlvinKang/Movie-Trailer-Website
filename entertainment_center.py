@@ -32,5 +32,8 @@ potc_movie = media.Movie("Pirates of the Caribbean: The Curse of the Black Pearl
 						"http://mrhipster.com/wp/wp-content/uploads/2015/02/pirates-of-the-caribbean-curse-of-the-black-pearl.jpg",
 						"https://www.youtube.com/watch?v=naQr0uTrH_s")
 
+# Array of the six movies
 movies = [inception_movie, zootopia_movie, forrest_gump_movie, walle_movie, lotr_movie, potc_movie]
+
+# Launches a website that contains the movies 
 fresh_tomatoes.open_movies_page(movies)
