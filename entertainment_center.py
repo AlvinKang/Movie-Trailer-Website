@@ -22,9 +22,15 @@ walle_movie = media.Movie("Wall-E",
 						  "https://img.yescdn.ru/2015/09/15/poster/WALL-E_1.jpg",
 						  "https://www.youtube.com/watch?v=ZAWIIlXNGwY")
 
-# lotr_movie = media.Movie()
+lotr_movie = media.Movie("The Lord of the Rings: Return of the King",
+						 "The third and final movie to the LOTR trilogy",
+						 "https://upload.wikimedia.org/wikipedia/en/9/9d/Lord_of_the_Rings_-_The_Return_of_the_King.jpg",
+						 "https://www.youtube.com/watch?v=y2rYRu8UW8M")
 
-# poc_movie = media.Movie()
+potc_movie = media.Movie("Pirates of the Caribbean: The Curse of the Black Pearl",
+						"A pirate and his crew set sail for the cursed treasure of the Caribbean",
+						"http://mrhipster.com/wp/wp-content/uploads/2015/02/pirates-of-the-caribbean-curse-of-the-black-pearl.jpg",
+						"https://www.youtube.com/watch?v=naQr0uTrH_s")
 
-movies = [inception_movie, zootopia_movie, forrest_gump_movie, walle_movie]
+movies = [inception_movie, zootopia_movie, forrest_gump_movie, walle_movie, lotr_movie, potc_movie]
 fresh_tomatoes.open_movies_page(movies)
