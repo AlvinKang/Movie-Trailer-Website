@@ -10,7 +10,7 @@ inception_movie = media.Movie(
 
 zootopia_movie = media.Movie(
     "Zootopia",
-    "A bunny and fox team up to solve the myster of Zootopia",
+    "A bunny and fox team up to solve the mystery of Zootopia",
     "https://s-media-cache-ak0.pinimg.com/originals/5a/29/d7/5a29d758e586fa4c44ef0e9065b4651c.jpg",  # noqa
     "https://www.youtube.com/watch?v=CzvH6_e2a-U")
 
