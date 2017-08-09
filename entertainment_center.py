@@ -39,9 +39,8 @@ potc_movie = media.Movie(
 	"https://www.youtube.com/watch?v=naQr0uTrH_s")
 
 # Array of the six movies
-movies = [
-	inception_movie, zootopia_movie, forrest_gump_movie, walle_movie,
-	lotr_movie, potc_movie]
+movies = [inception_movie, zootopia_movie, forrest_gump_movie, 
+		  walle_movie,lotr_movie, potc_movie]
 
 # Launches a website that contains the movies
 fresh_tomatoes.open_movies_page(movies)
