@@ -8,7 +8,7 @@
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
@@ -61,7 +61,7 @@
         // Start playing the video whenever the trailer modal is opened
         $(document).on('click', '.movie-tile', function (event) {
             var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
-            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            var sourceUrl = 'https://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
             $("#trailer-video-container").empty().append($("<iframe></iframe>", {
               'id': 'trailer-video',
               'type': 'text-html',
@@ -105,7 +105,7 @@
     <div class="container">
       
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="YoHD9XEInc0" data-toggle="modal" data-target="#trailer">
-    <img src="http://cdn.collider.com/wp-content/uploads/Inception-movie-poster-4.jpg" width="220" height="342">
+    <img src="https://cdn.collider.com/wp-content/uploads/Inception-movie-poster-4.jpg" width="220" height="342">
     <h2>Inception</h2>
 </div>
 
@@ -115,7 +115,7 @@
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="bLvqoHBptjg" data-toggle="modal" data-target="#trailer">
-    <img src="http://www.impawards.com/1994/posters/forrest_gump_xlg.jpg" width="220" height="342">
+    <img src="https://www.impawards.com/1994/posters/forrest_gump_xlg.jpg" width="220" height="342">
     <h2>Forrest Gump</h2>
 </div>
 
@@ -130,7 +130,7 @@
 </div>
 
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="naQr0uTrH_s" data-toggle="modal" data-target="#trailer">
-    <img src="http://mrhipster.com/wp/wp-content/uploads/2015/02/pirates-of-the-caribbean-curse-of-the-black-pearl.jpg" width="220" height="342">
+    <img src="https://mrhipster.com/wp/wp-content/uploads/2015/02/pirates-of-the-caribbean-curse-of-the-black-pearl.jpg" width="220" height="342">
     <h2>Pirates of the Caribbean: The Curse of the Black Pearl</h2>
 </div>
 
