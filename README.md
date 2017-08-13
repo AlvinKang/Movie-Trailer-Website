@@ -1,4 +1,4 @@
-# Movie-Trailer-Website
+# MovieTrailer
 This is a project that launches a website with six of my favorite movies using Python. **Please ensure the version of Python is 2.7.**
 
 Alternatively, you can view the website [here](https://alvinkang.github.io/MovieTrailer/).
