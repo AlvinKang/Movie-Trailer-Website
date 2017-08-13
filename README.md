@@ -1,6 +1,8 @@
 # Movie-Trailer-Website
 This is a project that launches a website with six of my favorite movies using Python. **Please ensure the version of Python is 2.7.**
 
+Alternatively, you can view the website [here](https://alvinkang.github.io/MovieTrailer/).
+
 ## Getting Started
 ### Prerequisites
 Be sure to have the latest verison of Python 2.7 installed. You can visit this [website](https://www.python.org/downloads/) to get what you need. 
